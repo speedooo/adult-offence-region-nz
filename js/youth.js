@@ -39,7 +39,7 @@ ageConverter = {
 
 sentenceConverter = {
 
-    'CE' :'Community work, Corrections',
+    'CW' :'Community work, Corrections',
     'RR' : 'Reparation/Restitution',
     'CR' :'Community Detention',
     'FN' :'Fine',
@@ -51,7 +51,7 @@ sentenceConverter = {
     'PD' :'Preventive Detention',
     'CD' :'Conviction and discharge',
     'LP' :'Life imprisonment',
-    'O'  :'Other'
+    'OT'  :'Other'
 
 
 }
