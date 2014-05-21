@@ -216,6 +216,29 @@ d3.csv("data/convicted_offenders.csv", function (data) {
                 return sentenceConverter[d.key] + " (" + d.value + ")"; })
             .renderLabel(true).xAxis().ticks(3);
 
+//        sentence_chart = dc.barChart("#sentence-chart")
+//            .width($("#sentence-chart").width()).height(400)
+//            .dimension(sentence).group(countBySentence)
+//            .xAxisPadding(20).xUnits(dc.units.ordinal)
+//            .ordinalColors(["#6a51a3", "#2171b5", "#238b45", "#d94801", "#cb181d"])
+//            .transitionDuration(500)
+//            .x(d3.scale.ordinal().domain(sentenceConverter))
+//            //.y(d3.scale.linear())
+//            .gap(10)
+//            .brushOn(false)
+//            .renderLabel(true)
+//            .label(function (d) {
+//                console.log(d);
+//                return sentenceConverter[d.key];  })
+//            .renderTitle(true)
+//            .title(function (d) {
+//                return sentenceConverter[d.key] + " (" + d.value + ")"; })
+//            .xAxis().tickFormat(function (v) {
+//                return v;})
+////            .yAxis().ticks(5).tickFormat(function (v) {
+////                return v/1000+"K";
+////            });
+
         region_chart = dc.geoChoroplethChart("#region-chart")
             .width(350)
             .height(330)
