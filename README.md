@@ -6,3 +6,6 @@ This data is originally downloaded from dataLab. using dc.js, crossfilter, boots
 How to run it? under your folder with index.html
 
 python -m SimpleHTTPServer 9999
+
+Or
+copy the whole folder to your apache server folder, for example /var/www
