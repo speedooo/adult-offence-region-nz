@@ -230,11 +230,11 @@ d3.csv("data/convicted_offenders.csv", function (data) {
             .renderTitle(true)
             .title(function (d) {
                 return sentenceConverter[d.key] + " (" + d.value + ")"; })
-            .renderlet(function (chart) {chart.append("text")
-                .attr("x", "10")
-                .attr("y", "10" )
-             //   .attr('dy', '.75em').attr('transform', "rotate(-65)")
-                .text(function(d){return sentenceConverter[d.key]});})
+            //.renderlet(function (chart) {chart.append("text")
+            //    .attr("x", "10")
+            //    .attr("y", "10" )
+            // //   .attr('dy', '.75em').attr('transform', "rotate(-65)")
+            //    .text(function(d){return sentenceConverter[d.key]});})
             //.xAxis().tickFormat(function (v) {
             //    return v;})
             .yAxis().tickFormat(function (v) {
